@@ -11,7 +11,7 @@ const Images = ({ isHovered }) => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4">
         {/* Images with Fade Effects */}
         {Array.from({ length: 8 }).map((_, index) => (
-          <Fade key={index} bottom={(index % 2 === 0) ? true : false} top={(index % 2 !== 0) ? true : false}>
+          <Fade key={index} left={(index % 2 === 0)} right={(index % 2 !== 0)}>
             <div className="transition ease-in-out mb-4">
               <img
                 src={require(`../assets/design/n4n${index + 1}.jpg`)}
