@@ -8,7 +8,7 @@ export const educationData = [
     },
     {
         id: 2,
-        institution: 'DPS, Vasant Kunj',
+        institution: 'DPS',
         course: '12th ',
         startYear: '2020',
         endYear: '2021'
